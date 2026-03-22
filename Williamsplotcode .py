@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 # =========================
 # 1. LOAD TRAIN & TEST DATA
 # =========================
-train_df = pd.read_csv(r"C:\Users\hp\PycharmProjects\PythonProject3\.ipynb_checkpoints\ADplot_Train_AD.csv")
-test_df  = pd.read_csv(r"C:\Users\hp\PycharmProjects\PythonProject3\.ipynb_checkpoints\ADplot_Test_AD.csv")
+train_df = pd.read_csv(r"path.csv")
+test_df  = pd.read_csv(r"path.csv")
 
 # =========================
 # 2. SELECT DESCRIPTORS
