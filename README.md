@@ -19,3 +19,5 @@ Where:
 This leverage-based approach delivers a robust framework for studying the model's applicability domain and ensures that the predictions are confined to a chemically and statistically valid space.
 
 # Regression plot generator
+This code generates an Observed vs Predicted Activity regression plot for the training and test sets and calculates R² using `scipy.stats.linregress`.  The implemented calculation is **R² = r²**, where `r` is the Pearson correlation coefficient between observed and predicted values.
+The code generates three major statistical outputs: R² for the training set (internal validation), r² for the test set (external validation), and the Concordance Correlation Coefficient (CCC), which indicates the agreement between observed and predicted values and their deviation from the ideal line passing through the origin.
