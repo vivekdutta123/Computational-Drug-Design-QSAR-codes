@@ -18,3 +18,4 @@ Where:
 
 This leverage-based approach delivers a robust framework for studying the model's applicability domain and ensures that the predictions are confined to a chemically and statistically valid space.
 
+# Regression plot generator
